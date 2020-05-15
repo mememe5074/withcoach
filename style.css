@@ -14,6 +14,11 @@
 	font-size:20px;
 	position : absolute;
 }
+.sub_title{
+	font-family:'S-CoreDream-8Heavy';
+	font-size:20px;
+	text-align: center;
+}
 .start_test {
 	font-family:'S-CoreDream-8Heavy';
 }
