@@ -11,8 +11,9 @@
 }
 .detail{
 	font-family:'S-CoreDream-8Heavy';
-	font-size:20px;
+	font-size:15px;
 	position : absolute;
+	text-align : left;
 }
 .sub_title{
 	font-family:'S-CoreDream-8Heavy';
@@ -23,6 +24,14 @@
 	font-family:'S-CoreDream-8Heavy';
 }
 
+.next{
+	font-family:'S-CoreDream-8Heavy';
+	text-align:right;
+}
+.QNA{
+	border : 2px dotted black;
+	font-family:'S-CoreDream-8Heavy';
+}
 @font-face { font-family: 'S-CoreDream-8Heavy'; 
 	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); 
 	font-weight: normal; 
