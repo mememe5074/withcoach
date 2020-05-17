@@ -1,38 +1,27 @@
-.title {
-	font-family:'S-CoreDream-8Heavy';
-	font-weight: bold;
-	font-size: 30px;
-	text-align: center;
-}
 
-.back_img_box {
-	text-align: center;
-	position : absolute;
+.visual{
+	position:relative;
+	padding:0;
+	width:720px;
 }
-.detail{
-	font-family:'S-CoreDream-8Heavy';
-	font-size:15px;
-	position : absolute;
-	text-align : left;
+.visual button {
+	position:absolute; 
+	z-index:10; top:100%; 
+	transform:translateY(-50%); 
+	width:71px; height:71px;
+	background:rgba(0,0,0,.5);
+	border:none;
 }
-.sub_title{
-	font-family:'S-CoreDream-8Heavy';
-	font-size:20px;
-	text-align: center;
+.visual button.slick-prev { left:50px;}
+.visual button.slick-next { right:50px;}
+.slider{width:720px;}
+body {
+	background-image : url("img/main.png");
+	text-align:center;
 }
-.start_test {
-	font-family:'S-CoreDream-8Heavy';
-}
+.manager{margin-top:270px; font-size:60px; color:#fff; font-family: 'Cafe24Ohsquare'}
+.slide2_img{margin-top:270px; opacity: 0.8; display:block; margin-left:auto; margin-right:auto;}
 
-.next{
-	font-family:'S-CoreDream-8Heavy';
-	text-align:right;
-}
-.QNA{
-	border : 2px dotted black;
-	font-family:'S-CoreDream-8Heavy';
-}
-@font-face { font-family: 'S-CoreDream-8Heavy'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); 
-	font-weight: normal; 
-	font-style: normal; }
+
+
+@font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
