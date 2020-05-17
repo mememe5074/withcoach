@@ -17,11 +17,12 @@
 .slider{width:720px;}
 body {
 	background-image : url("img/main.png");
+	background-repeat: no-repeat;
 	text-align:center;
 }
 .manager{margin-top:270px; font-size:60px; color:#fff; font-family: 'Cafe24Ohsquare'}
 
-.slide2_img{margin-top:270px; f opacity: 0.8; display:block; margin-left:auto; margin-right:auto;}
+.slide2_img{margin-top:270px; opacity: 0.8; display:block; margin-left:auto; margin-right:auto;}
 .slide2_text1{margin-top:290px; margin-left:160px; position:absolute; color:#fff; font-size:60px; font-family: 'Cafe24Ohsquare'; z-index:10;}
 .slide2_text2{margin-top:410px; margin-left:80px; position:absolute; text-align:left; color:#fff; font-size:37px; font-family: 'Cafe24Ohsquare';z-index:10; }
 
@@ -38,9 +39,20 @@ body {
 
 .slide6_text2{margin-top:520px; margin-left:70px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
 
+.slide7_text1{margin-top:300px; margin-left:60px; position:absolute; color:#fff; font-size:35px; 
+	font-family:'Cafe24Ohsquare'; z-index:10;}
+.slide7_text2{margin-top:403px; margin-left:70px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
+
 .slide8_1_img{margin-top:270px; margin-left:40px; position:absolute; opacity: 0.8;}
 .slide8_2_img{ position:relative; z-index:10; }
 .slide8_text1{margin-top:300px; margin-left:48px; position:absolute; color:#fff; font-size:36px; font-family: 'Cafe24Ohsquare';}
+
 .scrollBox{margin-left:62px; margin-top:412px; width:592px; height:560px; overflow:hidden;}
+
+.slide9_text1{margin-top:305px; margin-left:212px; position:absolute; color:#fff; font-size:36px; font-family: 'Cafe24Ohsquare'; z-index:10;}
+.slide9_text2{margin-top:425px; margin-left:75px; position:absolute; text-align:left; color:#fff; font-size:36px; font-family:'Cafe24Ohsquare';z-index:10;}
+.slide9_text3{margin-top:503px; margin-left:400px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
+.slide9_text4{margin-top:900px; margin-left:272px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
+.slide9_text5{margin-top:950px; margin-left:272px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
 
 @font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
