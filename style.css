@@ -57,7 +57,13 @@ body {
 .slide9_text3{margin-top:503px; margin-left:400px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
 .slide9_text4{margin-top:900px; margin-left:272px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
 .slide9_text5{margin-top:950px; margin-left:272px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
+.slide9_img_2{margin-top:270px; position:absolute; opacity: 0.8; display:block; margin-left:auto; margin-right:auto;}
+.slide9_img_1{margin-top:473px; margin-left:65px; position:absolute; max-width:300px; height:auto; z-index:10;}
+#coach_img{margin-top:473px; margin-left:30px; position:absolute; max-width:300px; height:400px; z-index:10;}
 
+.gotoResult{
+	margin-top:50px; text-align:center; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:20;
+}
 
 
 @font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
