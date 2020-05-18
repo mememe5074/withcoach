@@ -1,10 +1,42 @@
 
 var formation, manage, media, attack, defence, rotation, key;
 var answer = [formation, manage, media, attack, defence, rotation, key];
-var result_score = [0,0,0,0,0,
-					0,0,0,0,0,
-					0,0,0,0,0,
-					0,0,0,0,0];
+
+$("input[name='q1']:checked").each(function(){
+	answer[0] = $(this).val();
+	console.log($(this).val());
+});
+
+$("input[name='q2']:checked").each(function(){
+	answer[1] = $(this).val();
+	console.log($(this).val());
+});
+
+$("input[name='q3']:checked").each(function(){
+	answer[2] = $(this).val();
+	console.log($(this).val());
+});
+
+$("input[name='q4']:checked").each(function(){
+	answer[3] = $(this).val();
+	console.log($(this).val());
+});
+
+$("input[name='q5']:checked").each(function(){
+	answer[4] = $(this).val();
+	console.log($(this).val());
+});
+
+$("input[name='q6']:checked").each(function(){
+	answer[5] = $(this).val();
+	console.log($(this).val());
+});
+
+$("input[name='q7']:checked").each(function(){
+	answer[6] = $(this).val();
+	console.log($(this).val());
+});
+
 var infoArray = [];
 var sortingField = "score";
     infoArray.push({ name : "펩 과르디올라", formation:"4", manage:"3" , media:"3" , attack:"1" , defence:"1" , rotation:"1" , key:"3", score:0 });
