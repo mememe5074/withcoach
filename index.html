@@ -14,8 +14,16 @@
 	</head>
 	
 	<body topmargin="0"  leftmargin="0" marginwidth="0" marginheight="0" >
-		<section class="visual">
-			<div class = "manager">당신은<br>어떤 감독인가요?<img src="slide/s1.png" alt=""></div>
+		<section id="visual" class="visual">
+			<div>
+				<div class = "manager">당신은<br>어떤 감독인가요?<img src="slide/s1.png" alt=""></div>
+				<div class="gotoCheck">				
+					<input id="result" type="image" src="img/ball.png" id="button1" onclick="button1_click();"/><br>
+					<label id="result">검사 시작하기</label>
+				</div>
+				
+			</div>
+			
 			
 			<div class = "slide2">
 				<div class = "slide2_text1">
@@ -58,8 +66,8 @@
 				</div>
 				<div class="slide4_text3">
 					<label for="q3_1"><br>1 ) “그들은 환상적인 팀이다.</label><input id="q3_1" type="radio" name="q3"value="1"/><br><br>
-					<label for="q3_2">2 ) 2 ) “역사적으로, 그들은 항상 결승전에서 무너졌었다.<br>오늘도 그럴 것이다.”</label><input id="q3_2" type="radio" name="q3" value="2"/><br><br>
-					<label for="q3_3">3 ) 3 ) “우리는 우리가 준비해온 것을 보여줄 것이다.”</label><input id="q3_3" type="radio" name="q3" value="3"/><br><br>
+					<label for="q3_2">2 ) “역사적으로, 그들은 항상 결승전에서 무너졌었다.<br>오늘도 그럴 것이다.”</label><input id="q3_2" type="radio" name="q3" value="2"/><br><br>
+					<label for="q3_3">3 ) “우리는 우리가 준비해온 것을 보여줄 것이다.”</label><input id="q3_3" type="radio" name="q3" value="3"/><br><br>
 					<label for="q3_4">4 ) “우리는 최고의 선수들을 갖고 있다.<br>그들은 오늘 해낼 것이다.”</label><input id="q3_4" type="radio" name="q3" value="4"/><br><br>
 				</div>
 				<img class="slide4_img" src="slide/s4.png" alt="">
@@ -132,7 +140,8 @@
 				</div>
 				
 				<div class = "gotoResult">
-					<input type="button" id="button1" onclick="button1_click();" value="제출하기" />
+					<input id="result" type="image" src="img/ball.png" id="button2" onclick="button2_click();"/><br>
+					<label id="result">결과 분석하기</label>
 				</div>
 				
 			</div>
