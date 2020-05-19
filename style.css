@@ -1,5 +1,10 @@
 .big_title{position:absolute; margin-top:145px; margin-left:170px; width:404.883px; font-size:60px; color:#81F7F3; font-family: 'Cafe24Ohsquare';}
 
+.kakao_ad1{ position:absolute}
+.kakao_ad_area1{margin-top:58px;}
+
+#disqus_thread{margin-top:60px;}
+
 .at-share-btn-elements{margin-top:1045px; text-align:center;}
 
 .copy-right{position:absolute; color:#fff; width: 500px; margin-left:-110px;}
@@ -29,6 +34,7 @@ input {
 body {
 	background-image : url("img/main.png");
 	text-align:center;
+	background-repeat:no-repeat;
 	margin: 0 auto;
 }
 .manager{margin-top:270px; font-size:60px; color:#fff; font-family: 'Cafe24Ohsquare'}
