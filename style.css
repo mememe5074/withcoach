@@ -1,9 +1,16 @@
-.big_title{position:absolute; margin-top:145px; margin-left:170px; font-size:60px; color:#fff; font-family: 'Cafe24Ohsquare';}
+.big_title{position:absolute; margin-top:145px; margin-left:170px; width:404.883px; font-size:60px; color:#fff; font-family: 'Cafe24Ohsquare';}
+
+.copy-right{position:absolute; color:#fff; width: 500px; margin-left:-110px;}
 
 .visual{
 	position:relative;
 	padding:0;
 	width:720px;
+}
+input {
+ 	width:15px;
+	height:15px;
+	margin-left:15px;
 }
 .visual button {
 	position:absolute; 
@@ -19,8 +26,8 @@
 .slider{width:720px;}
 body {
 	background-image : url("img/main.png");
-	background-repeat: no-repeat;
 	text-align:center;
+	margin: 0 auto;
 }
 .manager{margin-top:270px; font-size:60px; color:#fff; font-family: 'Cafe24Ohsquare'}
 

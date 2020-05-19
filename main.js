@@ -63,7 +63,12 @@ function button2_click() {
 	alert("입력하신대로 분석중입니다.");
 	$(".slick-next").trigger("click");
 	
-	$("input[name='q1']:checked").each(function(){
+	
+$("input[name='q1']:checked").each(function(){
+	answer[0] = $(this).val();
+});
+	
+$("input[name='q1']:checked").each(function(){
 	answer[0] = $(this).val();
 });
 
