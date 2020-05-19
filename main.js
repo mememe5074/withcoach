@@ -29,6 +29,7 @@ var hid = "PSV(1987~90,02~06)<br>페네르바체(1990~91)<br>네덜란드대표�
 var all = "알리아아네세 칼초 (2003~04)<br>레알 SPAL(2004~05)<br>FC 그로세토 (2005~06)<br>US 사수올로 (2007~08)<br>칼리아리 칼초 \(2008~10)<br>AC 밀란 (2010~14)<br>유벤투스 FC (2014~19)<br>리그우승 6회<br>리그컵 우승 3회<br>UEFA 챔피언스 리그 준우승 2회<br><br>\“탈락\을 받아들여! 돌아갈 수 없잖아\”"
 var low = "VfB슈투트가르트(1996~98)<br>페네르바흐체SK(1998~99)<br>카를스루에 SC(1999~00)<br>아다나스포르(2001)<br>FC티롤 인스브루크\(2001~02)<br>FK아우스트리아 빈(2003~04)<br>독일 대표팀(2006~ )<br>리그 우승 1회<br>리그 컵 우승 1회<br>월드컵 우승 1회<br><br>\“한국을 이기\지 못한 것은 쇼크다.\”"
 var wen = "RC스트라스부르 U-19(1981~82)<br>AS 낭시(1984~87)<br>AS모나코 FC(1987~94)<br>나고야 그램퍼스(1995~96)<br>아스날 FC(1996~18)<br>리그 우승 4회<br>리그 준우승 6회<br>리그 컵 우승 8회<br>UEFA 챔피언스리그 준우승 1회<br><br>\“나의 꿈은 타이틀이 아닌, 가장 완\벽한 축구를 5분만이라도 지속되게 하는 것이다.\”"
+var dal ="리버풀 FC (1985~91)<br>블랙번 로버스 FC (1991~95)<br>뉴캐슬 유나이티드 FC (1997~98)<br>셀틱 FC (1999~00)<br>리버풀 FC (2011~12)<br>"
 
 $(function() {
 	sum++;
@@ -187,7 +188,7 @@ if(infoArray[0].name == "펩 과르디올라"){
 	
 }else if(infoArray[0].name == "달글리시"){
 	$('#coach_img').attr("src","coach/dalglish.jpg");
-	
+		document.getElementById("slide9_detail").innerHTML=dal;
 }else if(infoArray[0].name == "베니테즈"){
 	$('#coach_img').attr("src","coach/benitez.jpg");
 	document.getElementById("slide9_detail").innerHTML=ben;
