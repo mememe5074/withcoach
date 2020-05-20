@@ -1,7 +1,7 @@
 window.onload = function () {
 	$(".slick-next").hide();
 	$(".slick-arrow").hide();
-	alert('하단에 있는 화살표를 사용해주세요!\n(슬라이드 사용시 error 발생) ');
+	alert('로딩이 끝난 후, 하단에 있는 축구공을 눌러주세요!\n(슬라이드 사용시 error 발생) ');
 }
 var answer = [0, 0, 0, 0, 0, 0, 0];
 
