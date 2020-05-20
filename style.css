@@ -1,5 +1,7 @@
 .big_title{position:absolute; margin-top:145px; margin-left:170px; width:430px; font-size:60px; color:#81F7F3; font-family: 'Cafe24Ohsquare';}
-
+Next{
+	
+}
 .kakao_ad1{ position:absolute}
 .kakao_ad_area1{margin-top:58px;}
 
@@ -8,15 +10,14 @@
 .at-share-btn-elements{margin-top:1045px; text-align:center;}
 
 .copy-right{position:absolute; color:#fff; width: 500px; margin-left:-110px;}
-
 .visual{
 	position:relative;
 	padding:0;
 	width:720px;
 }
 input {
- 	width:15px;
-	height:15px;
+ 	width:20px;
+	height:20px;
 	margin-left:15px;
 }
 .visual button {
@@ -28,8 +29,8 @@ input {
 	border:none;
 	text-indent:-9999px;
 }
-.visual button.slick-prev { left:50px; background-image : url(img/prev.png)}
-.visual button.slick-next { right:50px; background-image : url(img/next.png)}
+.visual button.slick-prev {left:50px; background-image : url(img/prev.png);}
+.visual button.slick-next {right:50px; background-image : url(img/next.png);}
 .slider{width:720px;}
 body {
 	background-image : url("img/main.jpg");
@@ -70,6 +71,7 @@ body {
 
 
 .slide9_text1{margin-top:305px; margin-left:212px; position:absolute; color:#fff; font-size:36px; font-family: 'Cafe24Ohsquare'; z-index:10;}
+
 .slide9_text2{margin-top:425px; margin-left:90px; position:absolute; text-align:left; color:#fff; font-size:36px; font-family:'Cafe24Ohsquare';z-index:10;}
 
 p {margin-top:473px; margin-left:320px; position:absolute; text-align:left; color:#fff; font-size:23px; font-family:'Cafe24Ohsquare';z-index:10;}

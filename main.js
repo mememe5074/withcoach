@@ -1,4 +1,8 @@
-
+window.onload = function () {
+	$(".slick-next").hide();
+	$(".slick-arrow").hide();
+	alert('하단에 있는 화살표를 사용해주세요!\n(슬라이드 사용시 error 발생) ');
+}
 var answer = [0, 0, 0, 0, 0, 0, 0];
 
 var caoch_name = "klopp";
@@ -36,7 +40,7 @@ $(function() {
   $('.slick-next').click( function() {
 	sum++;
 	  console.log(sum);
-	  if(sum >= 8){
+	  if(sum >= 10){
 		$(".slick-next").hide();
 		$(".slick-arrow").hide();
 	}else{
@@ -55,12 +59,6 @@ $(function() {
 	
 });
 console.log(sum);
-
-window.onload = function () {
-	$(".slick-next").hide();
-	$(".slick-arrow").hide();
-	alert('하단에 있는 화살표를 사용해주세요!\n(슬라이드 사용시 error 발생) ');
-}
 
 function button1_click() {
 	$(".slick-next").show();
