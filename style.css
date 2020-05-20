@@ -1,4 +1,4 @@
-.big_title{position:absolute; margin-top:145px; margin-left:170px; width:404.883px; font-size:60px; color:#81F7F3; font-family: 'Cafe24Ohsquare';}
+.big_title{position:absolute; margin-top:145px; margin-left:170px; width:430px; font-size:60px; color:#81F7F3; font-family: 'Cafe24Ohsquare';}
 
 .kakao_ad1{ position:absolute}
 .kakao_ad_area1{margin-top:58px;}
@@ -32,7 +32,7 @@ input {
 .visual button.slick-next { right:50px; background-image : url(img/next.png)}
 .slider{width:720px;}
 body {
-	background-image : url("img/main.png");
+	background-image : url("img/main.jpg");
 	text-align:center;
 	background-repeat:no-repeat;
 	margin: 0 auto;
