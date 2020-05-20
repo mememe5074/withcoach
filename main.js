@@ -1,6 +1,4 @@
 window.onload = function () {
-	$(".slick-next").hide();
-	$(".slick-arrow").hide();
 	alert('로딩이 끝난 후, 하단에 있는 축구공을 눌러주세요!\n(슬라이드 사용시 error 발생) ');
 }
 var answer = [0, 0, 0, 0, 0, 0, 0];
@@ -35,29 +33,6 @@ var low = "VfB슈투트가르트(1996~98)<br>페네르바흐체SK(1998~99)<br>�
 var wen = "RC스트라스부르 U-19(1981~82)<br>AS 낭시(1984~87)<br>AS모나코 FC(1987~94)<br>나고야 그램퍼스(1995~96)<br>아스날 FC(1996~18)<br>리그 우승 4회<br>리그 준우승 6회<br>리그 컵 우승 8회<br>UEFA 챔피언스리그 준우승 1회<br><br>\“나의 꿈은 타이틀이 아닌, 가장 완\벽한 축구를 5분만이라도 지속되게 하는 것이다.\”"
 var dal ="리버풀 FC (1985~91)<br>블랙번 로버스 FC (1991~95)<br>뉴캐슬 유나이티드 FC (1997~98)<br>셀틱 FC (1999~00)<br>리버풀 FC (2011~12)<br>"
 
-$(function() {
-	sum++;
-  $('.slick-next').click( function() {
-	sum++;
-	  console.log(sum);
-	  if(sum >= 10){
-		$(".slick-next").hide();
-		$(".slick-arrow").hide();
-	}else{
-	$(".slick-next").show();
-	$(".slick-arrow").show();
-	}
-	});
-	
-});
-
-$(function() {
-  $('.slick-prev').click( function() {
-	sum--;
-	  console.log(sum);
-	});
-	
-});
 console.log(sum);
 
 function button1_click() {
