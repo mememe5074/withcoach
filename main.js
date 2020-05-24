@@ -1,3 +1,23 @@
+$(":button").on('click', function(e) {
+// html2canvas(e.target.parentElement).then(function(canvas) {
+// document.body.appendChild(canvas)
+// });
+// html2canvas(e.target.parentElement).then(function(canvas) {
+// $('body').append('<img src="' + canvas.toDataURL("image/jpeg") + '"/>');
+// });
+html2canvas(e.target.parentElement).then(function(canvas) {
+if (navigator.msSaveBlob) {
+var blob = canvas.msToBlob();
+return navigator.msSaveBlob(blob, '파일명.jpg');
+} else {
+var el = document.getElementById("target");
+el.href = canvas.toDataURL("image/jpeg");
+el.download = '파일명.jpg';
+el.click();
+}
+});
+});
+
 window.onload = function () {
 	alert('로딩이 끝난 후, 하단에 있는 축구공을 눌러주세요!\n(슬라이드 사용시 error 발생) ');
 }
@@ -114,25 +134,25 @@ var sortingField = "score";
 
 for(var i=0 ; i<20; i++){
 	if (answer[0] == infoArray[i].formation) {
-		infoArray[i].score += 10;
+		infoArray[i].score += 7;
 		}
 	if (answer[1] == infoArray[i].manage) {
-		infoArray[i].score += 10;
+		infoArray[i].score += 15;
 	}
 	if (answer[2] == infoArray[i].media) {
-		infoArray[i].score += 10;
+		infoArray[i].score += 8;
 	}
 	if (answer[3] == infoArray[i].attack) {
-		infoArray[i].score += 20;
+		infoArray[i].score += 17;
 	}
 	if (answer[4] == infoArray[i].defence) {
-		infoArray[i].score += 20;
+		infoArray[i].score += 13;
 	}
 	if (answer[5] == infoArray[i].rotation) {
-		infoArray[i].score += 10;
+		infoArray[i].score += 15;
 	}
 	if (answer[6] == infoArray[i].key) {
-		infoArray[i].score += 20;
+		infoArray[i].score += 25;
 	}
 }
 infoArray.sort(function(a, b) { // 내림차순
