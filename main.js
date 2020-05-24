@@ -212,7 +212,7 @@ if(infoArray[0].name == "펩 과르디올라"){
 		document.getElementById("slide9_detail").innerHTML=zid;
 
 }else if(infoArray[0].name == "사리"){
-	$('#coach_img').attr("src","coach/sarri.jpg");
+	$('#coach_img').attr("src","coach/sarri.png");
 		document.getElementById("slide9_detail").innerHTML=sar;
 
 }else if(infoArray[0].name == "포체티노"){
