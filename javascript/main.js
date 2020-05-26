@@ -1,3 +1,14 @@
+$(document).ready(function(){
+				$(document).bind('keydown',function(e){
+					if ( e.keyCode == 123 /* F12 */) {
+						e.preventDefault();
+						e.returnValue = false;
+					}
+				});
+			});
+			document.onmousedown=disableclick;
+			status="Right click is not available.";
+
 $(":button").on('click', function(e) {
 // html2canvas(e.target.parentElement).then(function(canvas) {
 // document.body.appendChild(canvas)
