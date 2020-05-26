@@ -190,7 +190,7 @@ for(var i=0 ; i<20; i++){
 		infoArray[i].score += 8;
 	}
 	if (answer[3] == infoArray[i].attack) {
-		infoArray[i].score += 18;
+		infoArray[i].score += 18.;
 	}
 	if (answer[4] == infoArray[i].defence) {
 		infoArray[i].score += 15;

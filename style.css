@@ -1,15 +1,15 @@
 .big_title{position:absolute; margin-top:145px; margin-left:50px; width:600px; font-size:50px; color:#FA5882; font-family: 'Cafe24Ohsquare';}
 
-#kakao_ad2{position:absolute}
+#kakao_ad2{position:absolute;z-index:99999;}
 
 #disqus_thread{margin-top:60px;}
 
 .at-share-btn-elements{margin-top:1045px; text-align:center;}
-
-.copy-right{position:absolute; color:#fff; width: 500px; margin-left:50px; font-family: 'RIDIBatang';
+.producer{position:absolute; color:#FA5882;font-family: 'S-CoreDream-6Bold';font-size:23px;text-shadow: 0 0 1px black; text-align:right;margin-left:425px;}
+.copy-right{position:absolute; color:#fff; font-family: 'RIDIBatang';
 }
 .message{position:absolute; color:#FA5882; margin-top:-1111px; margin-left:-72px;font-family: 'S-CoreDream-6Bold';font-size:23px;
-text-shadow: 1 1 5px black; text-align:left}
+text-shadow: 1 1 5px black; text-align:left;}
 .visual{
 	position:relative;
 	padding:0;
