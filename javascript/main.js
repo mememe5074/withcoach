@@ -181,7 +181,7 @@ var sortingField = "score";
 
 for(var i=0 ; i<20; i++){
 	if (answer[0] == infoArray[i].formation) {
-		infoArray[i].score += 7;
+		infoArray[i].score += 15;
 		}
 	if (answer[1] == infoArray[i].manage) {
 		infoArray[i].score += 15;
@@ -190,16 +190,16 @@ for(var i=0 ; i<20; i++){
 		infoArray[i].score += 8;
 	}
 	if (answer[3] == infoArray[i].attack) {
-		infoArray[i].score += 17;
+		infoArray[i].score += 18;
 	}
 	if (answer[4] == infoArray[i].defence) {
-		infoArray[i].score += 13;
-	}
-	if (answer[5] == infoArray[i].rotation) {
 		infoArray[i].score += 15;
 	}
+	if (answer[5] == infoArray[i].rotation) {
+		infoArray[i].score += 9;
+	}
 	if (answer[6] == infoArray[i].key) {
-		infoArray[i].score += 25;
+		infoArray[i].score += 20;
 	}
 }
 infoArray.sort(function(a, b) { // 내림차순
