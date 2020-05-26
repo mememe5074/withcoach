@@ -6,10 +6,10 @@
 
 .at-share-btn-elements{margin-top:1045px; text-align:center;}
 
-.copy-right{position:absolute; color:#fff; width: 500px; margin-left:-110px; font-family: 'RIDIBatang';
+.copy-right{position:absolute; color:#fff; width: 500px; margin-left:50px; font-family: 'RIDIBatang';
 }
-.message{position:absolute; color:#FA5882; width: 460px; margin-left:-119px;font-family: 'S-CoreDream-6Bold';font-size:23px;
-text-shadow: 1 1 5px black}
+.message{position:absolute; color:#FA5882; margin-top:-1111px; margin-left:-72px;font-family: 'S-CoreDream-6Bold';font-size:23px;
+text-shadow: 1 1 5px black; text-align:left}
 .visual{
 	position:relative;
 	padding:0;
@@ -100,6 +100,29 @@ p {margin-top:473px; margin-left:335px; position:absolute; text-align:left; colo
 
 .gotoCheck1 input {width:90px; height:90px;z-index:50}
 
+div.clickEffect{
+	position:fixed;
+	box-sizing:border-box;
+	border-style:solid;
+	border-color:#FA5882;
+	border-radius:50%;
+	animation:clickEffect 0.4s ease-out;
+	z-index:99999;
+}
+@keyframes clickEffect{
+	0%{
+		opacity:1;
+		width:0.5em; height:0.5em;
+		margin:-0.25em;
+		border-width:0.5rem;
+	}
+	100%{
+		opacity:0.2;
+		width:15em; height:15em;
+		margin:-7.5em;
+		border-width:0.03rem;
+	}
+}
 @font-face { font-family: 'S-CoreDream-6Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
