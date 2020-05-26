@@ -1,4 +1,4 @@
-.big_title{position:absolute; margin-top:145px; margin-left:170px; width:430px; font-size:60px; color:#81F7F3; font-family: 'Cafe24Ohsquare';}
+.big_title{position:absolute; margin-top:145px; margin-left:50px; width:600px; font-size:50px; color:#FA5882; font-family: 'Cafe24Ohsquare';}
 
 #kakao_ad2{position:absolute}
 
@@ -6,7 +6,10 @@
 
 .at-share-btn-elements{margin-top:1045px; text-align:center;}
 
-.copy-right{position:absolute; color:#fff; width: 500px; margin-left:-110px;}
+.copy-right{position:absolute; color:#fff; width: 500px; margin-left:-110px; font-family: 'RIDIBatang';
+}
+.message{position:absolute; color:#FA5882; width: 460px; margin-left:-119px;font-family: 'S-CoreDream-6Bold';font-size:23px;
+text-shadow: 1 1 5px black}
 .visual{
 	position:relative;
 	padding:0;
@@ -71,7 +74,7 @@ body {
 
 .slide9_text2{margin-top:425px; margin-left:90px; position:absolute; text-align:left; color:#fff; font-size:36px; font-family:'Cafe24Ohsquare';z-index:10;}
 
-p {margin-top:473px; margin-left:320px; position:absolute; text-align:left; color:#fff; font-size:23px; font-family:'Cafe24Ohsquare';z-index:10;}
+p {margin-top:473px; margin-left:335px; position:absolute; text-align:left; color:#fff; font-size:23px; font-family:'Cafe24Ohsquare';z-index:10;}
 .slide9_text4{margin-top:900px; margin-left:46px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
 
 .slide9_text5{margin-top:950px; margin-left:46px; position:absolute; text-align:left; color:#fff; font-size:25px; font-family:'Cafe24Ohsquare';z-index:10;}
@@ -97,4 +100,6 @@ p {margin-top:473px; margin-left:320px; position:absolute; text-align:left; colo
 
 .gotoCheck1 input {width:90px; height:90px;z-index:50}
 
+@font-face { font-family: 'S-CoreDream-6Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }

@@ -6,8 +6,6 @@ $(document).ready(function(){
 					}
 				});
 			});
-			document.onmousedown=disableclick;
-			status="Right click is not available.";
 
 $(":button").on('click', function(e) {
 // html2canvas(e.target.parentElement).then(function(canvas) {
@@ -64,6 +62,28 @@ var low = "VfB슈투트가르트(1996~98)<br>페네르바흐체SK(1998~99)<br>�
 var wen = "RC스트라스부르 U-19(1981~82)<br>AS 낭시(1984~87)<br>AS모나코 FC(1987~94)<br>나고야 그램퍼스(1995~96)<br>아스날 FC(1996~18)<br>리그 우승 4회<br>리그 준우승 6회<br>리그 컵 우승 8회<br>UEFA 챔피언스리그 준우승 1회<br><br>\“나의 꿈은 타이틀이 아닌, 가장 완\벽한 축구를 5분만이라도 지속되게 하는 것이다.\”"
 var dal ="리버풀 FC (1985~91)<br>블랙번 로버스 FC (1991~95)<br>뉴캐슬 유나이티드 FC (1997~98)<br>셀틱 FC (1999~00)<br>리버풀 FC (2011~12)<br>"
 
+var rog = "왓포드FC(2008~09)<br>레딩FC(2009)<br>스완지 시티 AFC(2010~12)<br>리버풀 FC(2012~15)<br>셀틱 FC(2016~19)<br>레스터 시티 FC(2019~ )<br>\“만약 이 자리에서 구제를 받을 자격이 있는 선수가 있다면, 그건 바로 스티브야.\”"
+
+var kar = "맨체스터utd(2002~03/수석코치)<br>레알 마드리드(2003~04)<br>맨체스터utd(2004~08/수석코치)<br>포르투갈 대표팀(2008~10)<br>이란 대표팀(2011~19)<br>콜롬비아 대표팀(2019~ )<br>리그컵 1회<br>한국 상대 4승 1무<br>"
+
+var ran = "나폴리 (1991~93)<br>발렌시아CF (97~99,04~05)<br>AT마드리드 (1999~00)<br>첼시FC (2000~04)<br>유벤투스FC (2007~09)<br>AS로마 (2009~11)<br>인테르나치오날레 (2011~12)<br>AS 모나코 (2012~14)<br>그리스 대표팀 (2014)<br>레스터 시티 (2015~17)<br>FC 낭트 (2017~18)<br>풀럼 FC (2018~19)<br>AS 로마 (2019)<br>UC 삼프도리아 (2019~ )<br>리그컵 우승 2회<br>세리에 A,B,C 모두 우승<br>15/16 프리미어 리그 우승<br>\“내가 과연 꿈을 이룰 수 있을까? 당연! 레스터시티도 해냈는걸!\”"
+
+var kru = "아약스(1985~88)<br>FC 바르셀로나(1988~96)<br>카탈루냐 대표팀(2009~13)<br>리그 컵 우승  3회<br>리그 우승 4회<br>\“나에게 크루이프는 축구의 역사를 바꾼 사람이다. 그는 축구의 신이다\”-사비 에르난데스-<br>\“내 팀에서는 골키퍼가 첫 번째 공격수고, 포워드가 첫 번째 수비수다.\”"
+
+var kim = "성남일화천마 (2005~08)<br>허난 젠예 (2010~11)<br>강원FC (2012~13)<br>성남FC (2014~16)<br>광주FC (2017)<br>대한민국 U-23 대표팀 (2018~)<br>리그 우승 1회<br>리그컵 우승 1회<br>아시안 게임 금메달<br>AFC U-23 우승<br>\“일장기가 태극기 위에 있는 건 볼 수 없다.\”"
+
+var van = "아약스(1991~97)<br>FC 바르셀로나(97~00,02~03)<br>네덜란드 대표팀(00~02,12~14)<br>AZ알크마르(2005~09)<br>FC 바이에른 뮌헨(2009~11)<br>네덜란드 대표팀<br>맨체스터 유나이티드(2014~16)<br>리그 컵우승 4회<br>리그 우승 7회<br>2014 FIFA 브라질 월드컵 3위<br>UEFA 챔피언스리그 준우승 1회<br>UEFA 챔피언스리그 우승 1회<br>\"최고 수준의 선수 영입을 수차례, 여러번 요청을 했다. 하지만 그들은 내가 원하는 선수들을 영입해주지 않았다\“"
+
+var shi = "성남일화천마(2009~12)<br>대한민국 대표팀(2014/감독대행)<br>대한민국 U-23 대표팀(2015~16)<br>대한민국 U-20(2016~17)<br>대한민국 대표팀(2017~18)<br>인도네시아 대표팀(2020~)<br>리그컵 우승 2회<br>리그 우승 6회<br>AFC 챔피언스리그 준우승 1회<br>\“트릭이라고 보면 되겠습니다.\”<br>\“한국은 월드컵 기간만 도면 3천만명이 감독이 된다.\”"
+
+var del = "레알 마드리드(94,96,99~03)<br>베식타슈 JK(2004~05)<br>스페인 대표팀(2008~16)<br>리그 컵우승 1회<br>리그 우승 2회<br>UEFA 챔피언스리그 우승 2회<br>FIFA 2010 남아공 월드컵 우승<br>UEFA 2008 유로 우승<br>UEFA 2012 유로 우승<br>\“나는 호날두보다는 메시와 함께 하고 싶다.\”"
+
+var eme = "UD 알메리아(2006~08)<br>발렌시아 CF(2008~12)<br>스파르타크 모스크바(2012)<br>세비야 FC(2013~16)<br>PSG(2016~18)<br>아스날FC(2018~19)<br>리그 컵우승 2회<br>리그 우승 1회<br>UEFA 유로파 우승 3회<br>\"내가 원하던 새로운 아스날로 거듭나기 위해선 더 많은 시간을 줬어야한다.\""
+
+var tuc = "FC아우크스부르크(2007~08)<br>마인츠 05(2009~14)<br>도르트문트(2015~17)<br>PSG(2018~ )<br>리그 컵우승 1회<br>리그 우승 1회<br>\"포그바가 없었으면 맨유는 그를 그리워할까? 래시포드는? 당연히 그리워하겠지\“"
+
+var cap = "AC 밀란(91~96, 97~98)<br>레알 마드리드(1996~97)<br>AS 로마(1999~2004)<br>유벤투스(2004~06)<br>레알 마드리드(2006~07)<br>잉글랜드 대표팀(2007~12)<br>러시아 대표팀(2012~15)<br>장쑤 쑤닝(2017~18)<br>리그 우승 7회<br>\“호날두, 3년 동안 아무도 못 제쳐..\”"
+
 console.log(sum);
 
 function button1_click() {
@@ -83,10 +103,6 @@ function button2_click() {
 	alert("입력하신대로 분석중입니다.");
 	$(".slick-next").trigger("click");
 	
-	
-$("input[name='q1']:checked").each(function(){
-	answer[0] = $(this).val();
-});
 	
 $("input[name='q1']:checked").each(function(){
 	answer[0] = $(this).val();
@@ -122,6 +138,18 @@ for(var i=0; i<7;i++){
 
 var infoArray = [];
 var sortingField = "score";
+	
+	infoArray.push({ name : "브랜든 로저스", formation:"2", manage:"2" , media:"2" , attack:"1" , defence:"4" , rotation:"1" , key:"3", score:0 });
+	infoArray.push({ name : "케이로스", formation:"3", manage:"4" , media:"2" , attack:"2" , defence:"1" , rotation:"2" , key:"5", score:0 });
+	infoArray.push({ name : "라니에리", formation:"1", manage:"4" , media:"3" , attack:"2" , defence:"4" , rotation:"2" , key:"4", score:0 });
+	infoArray.push({ name : "요한 크루이프", formation:"1", manage:"1" , media:"2" , attack:"1" , defence:"1" , rotation:"2" , key:"3", score:0 });
+	infoArray.push({ name : "김학범", formation:"3", manage:"1" , media:"4" , attack:"1" , defence:"1" , rotation:"1" , key:"1", score:0 });
+	infoArray.push({ name : "루이 반 할", formation:"5", manage:"1" , media:"2" , attack:"2" , defence:"2" , rotation:"2" , key:"5", score:0 });
+	infoArray.push({ name : "신태용", formation:"1", manage:"2" , media:"4" , attack:"2" , defence:"4" , rotation:"2" , key:"3", score:0 });
+	infoArray.push({ name : "델 보스케", formation:"3", manage:"1" , media:"4" , attack:"1" , defence:"2" , rotation:"1" , key:"3", score:0 });
+	infoArray.push({ name : "에메리", formation:"3", manage:"4" , media:"3" , attack:"3" , defence:"4" , rotation:"1" , key:"2", score:0 });
+	infoArray.push({ name : "투헬", formation:"2", manage:"1" , media:"4" , attack:"4" , defence:"1" , rotation:"2" , key:"2", score:0 });
+	infoArray.push({ name : "카펠로", formation:"1", manage:"1" , media:"1" , attack:"2" , defence:"2" , rotation:"1" , key:"4", score:0 });
     infoArray.push({ name : "펩 과르디올라", formation:"4", manage:"3" , media:"3" , attack:"1" , defence:"1" , rotation:"1" , key:"3", score:0 });
     infoArray.push({ name : "알렉스 퍼거슨", formation:"1", manage:"1" , media:"4" , attack:"3" , defence:"2" , rotation:"2" , key:"2", score:0  });
     infoArray.push({ name : "슈틸리케", formation:"3", manage:"4" , media:"3" , attack:"2" , defence:"4" , rotation:"1" , key:"1", score:0  });
@@ -258,6 +286,52 @@ if(infoArray[0].name == "펩 과르디올라"){
 	$('#coach_img').attr("src","coach/wenger.jpg");
 		document.getElementById("slide9_detail").innerHTML=wen;
 
+}else if(infoArray[0].name == "브랜든 로저스"){
+	$('#coach_img').attr("src","coach/rogers.jpg");
+		document.getElementById("slide9_detail").innerHTML=rog;
+
+}else if(infoArray[0].name == "케이로스"){
+	$('#coach_img').attr("src","coach/karos.jpg");
+		document.getElementById("slide9_detail").innerHTML=kar;
+
+}else if(infoArray[0].name == "라니에리"){
+	$('#coach_img').attr("src","coach/rani.jpg");
+		document.getElementById("slide9_detail").innerHTML=ran;
+
+}else if(infoArray[0].name == "요한 크루이프"){
+	$('#coach_img').attr("src","coach/kruyff.jpg");
+		document.getElementById("slide9_detail").innerHTML=kru;
+
+}else if(infoArray[0].name == "김학범"){
+	$('#coach_img').attr("src","coach/kim.jpg");
+		document.getElementById("slide9_detail").innerHTML=kim;
+
+}else if(infoArray[0].name == "루이 반 할"){
+	$('#coach_img').attr("src","coach/vangaal.jpg");
+		document.getElementById("slide9_detail").innerHTML=van;
+
+}else if(infoArray[0].name == "신태용"){
+	$('#coach_img').attr("src","coach/shin.jpg");
+		document.getElementById("slide9_detail").innerHTML=shi;
+
+}else if(infoArray[0].name == "델 보스케"){
+	$('#coach_img').attr("src","coach/bosque.jpg");
+		document.getElementById("slide9_detail").innerHTML=del;
+
+}else if(infoArray[0].name == "에메리"){
+	$('#coach_img').attr("src","coach/emery.jpg");
+		document.getElementById("slide9_detail").innerHTML=eme;
+
+}else if(infoArray[0].name == "투헬"){
+	$('#coach_img').attr("src","coach/tuchel.jpg");
+		document.getElementById("slide9_detail").innerHTML=tuc;
+
+}else if(infoArray[0].name == "카펠로"){
+	$('#coach_img').attr("src","coach/capello.jpg");
+		document.getElementById("slide9_detail").innerHTML=cap;
+
 }
+	
+	
 }
 
